@@ -1,5 +1,4 @@
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; }
 .attribution a { color: hsl(228, 45%, 44%); }
 a {
     text-decoration:none; 
@@ -16,7 +15,7 @@ body {
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
-/* HEADER */
+/* Header */
 .container_header {
     display: flex;
     flex-direction: row;
@@ -31,7 +30,8 @@ h1, h2, h3 {
     margin: 10px;
     margin-right: 60px;
 }
-/* HERO */
+
+/* Hero */
 .container_hero {
     display: flex;
     flex-direction: row;
@@ -39,33 +39,43 @@ h1, h2, h3 {
     justify-content: space-around;
 }
 
-/* BUTTONS */
+/* Buttons */
 .btn {
     background-color: #ffffff; /* Green */
     border: none;
     padding: 14px 40px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     font-size: 16px;
     border-radius: 30px;
     font-weight: bold;
     -webkit-box-shadow: 2px 6px 17px -8px rgba(0,0,0,0.67); 
     box-shadow: 2px 6px 17px -8px rgba(0,0,0,0.67);
 }
-  .btn_pink {
+.btn:hover {
+    background-color: #ccecff;
+}
+ .btn_pink {
     background-color: #fe52c0; /* Green */
     border: none;
     padding: 20px 75px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     display: inline-block;
     font-size: 14px;
     border-radius: 50px;
     color: #ffffff;
     font-weight: 700;
+    -webkit-box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.53); 
+    box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.53);
+}
+.btn_pink:hover{
+    background-color: #d13397;
 }
 
-/* CONTEUDO DO SITE */
+/* Website content */
 .container_content {
     display: flex;
     flex-direction: row;
@@ -108,9 +118,15 @@ h1, h2, h3 {
     padding: 20px 75px;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
     font-size: 14px;
     border-radius: 50px;
     font-weight: 700;
+    -webkit-box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.53); 
+    box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.53);
+}
+.container_question button:hover {
+    background-color: #d13397;
 }
 .container_question h3 {
     color: black;
@@ -118,7 +134,7 @@ h1, h2, h3 {
     padding-bottom: 10px;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
     background-color: #00252e;
     color: #ffffff;
@@ -131,6 +147,7 @@ footer {
     padding-left: 90px;
     padding-bottom: 0px;
 }
+
 .container_footer2 {
     display: flex;
     flex-direction: row;
@@ -138,15 +155,22 @@ footer {
     padding-top: 0px;
     background-color: #00252e;
 }
-.container_footer2 img {
+/*.container_footer2 img {
     padding-left: 5px;
     padding-right: 5px;
-}
-.contato_footer {
+}*/
+.contact_footer {
     flex: 2;
     margin: 40px;
 }
-.sobre_footer {
+.contact_item img {
+    margin-right: 15px;
+}
+.container_footer2 li {
+    list-style-type: none;
+    padding-bottom: 18px;
+}
+.about_footer {
     flex: 1;
     margin: 40px;
 }
@@ -158,3 +182,21 @@ footer {
     flex: 1;
     margin: 40px;
 }
+
+.container_footer3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #00252e;
+    font-size: 14px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.container_footer4 {
+    display: flex;
+    justify-content: center;
+    background-color: #00252e;
+}
+
+
