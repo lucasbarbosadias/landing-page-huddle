@@ -18,7 +18,7 @@ Através desse projeto inicie meus estudos sobre Flexbox, pretendo me aperfeiço
 
     http://lucasbarbosadias.github.io/landing-page-huddle
 
-* Liks de estudo para quem tiver interesse em aprender Flexbox:
+* Links de estudo para quem tiver interesse em aprender Flexbox:
 
     https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
