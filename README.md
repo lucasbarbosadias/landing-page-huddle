@@ -23,6 +23,10 @@ Através desse projeto inicie meus estudos sobre Flexbox, pretendo me aperfeiço
     https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
     https://flexboxfroggy.com/
+    
+# Meu resultado final:
+
+<img src="images/resultado-final.png" alt="Print resultado final">
 
 # Anotações para estudo do Flexbox:
 
