@@ -1,0 +1,115 @@
+footer {
+    background-color: #00252e;
+    color: #ffffff;
+    height: 500px;
+}
+
+.cont_question {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cont_question div {
+    text-align:center;
+    width: 40%;
+    padding: 40px;
+    margin: 30px;
+    margin-top: -100px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 2px 6px 17px -8px rgba(0,0,0,0.67); 
+    box-shadow: 2px 6px 17px -8px rgba(0,0,0,0.67);
+}
+.cont_question button {
+    background-color: #fe52c0;
+    color: #ffffff;
+    border: none;
+    padding: 20px 75px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 700;
+    -webkit-box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.53); 
+    box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.53);
+}
+.cont_question button:hover {
+    background-color: #d13397;
+}
+.cont_question h3 {
+    color: black;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.cont-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 90px;
+    padding-bottom: 0px;
+}
+
+.cont-2 {
+    display: flex;
+    padding: 50px;
+    padding-top: 0px;
+    background-color: #00252e;
+}
+.cont-2 img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contact {
+    flex: 2;
+    width: 100%;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.contact_group {
+    display: flex;
+    width: 100%;
+    align-items: start;
+}
+.contact_group img {
+    padding-top: 22px;
+    padding-right: 25px;
+}
+.contact_group span {
+    padding-top: 18px;
+}
+.cont-2 li {
+    list-style-type: none;
+    padding-bottom: 18px;
+}
+.about {
+    flex: 1;
+    margin: 40px;
+}
+.menu {
+    flex: 1;
+    margin: 40px;
+}
+.social {
+    flex: 1;
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cont-3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #00252e;
+    font-size: 14px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.cont-4 {
+    display: flex;
+    justify-content: center;
+    background-color: #00252e;
+}
